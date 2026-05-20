@@ -7,7 +7,7 @@ let importoIVA=Number(process.argv[4]);
 let percentualeIVA =  Number(process.argv[5]);
 
 
-console.log(r.Sconto(importo, percentuale));
-console.log(r.IVA(importoIVA, percentualeIVA));
+console.log("Sconto: "+r.Sconto(importo, percentuale));
+console.log("Iva: "+r.IVA(importoIVA, percentualeIVA));
 
 
